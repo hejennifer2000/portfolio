@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="256px" height="256px" viewBox="0 0 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>bundles</title>
+    <desc>Created with Sketch.</desc>
+    <g id="bundles" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons/Illustrative/Oval" fill="#F2F3F2">
+            <circle id="Oval" cx="128" cy="128" r="128"></circle>
+        </g>
+        <g transform="translate(62.000000, 73.000000)" fill-rule="nonzero">
+            <rect id="Rectangle" fill="#C42040" x="0.46" y="38.49" width="102.51" height="70.85" rx="6.19"></rect>
+            <rect id="Rectangle" fill="#FFFFFF" x="64.85" y="53.93" width="25.41" height="19.98"></rect>
+            <path d="M131.73,7 L131.73,65 C131.724483,68.5251937 128.865198,71.3800043 125.34,71.38 L105.47,71.38 L105.47,42.38 C105.094825,39.0222703 102.447138,36.3704333 99.09,35.99 L29.22,35.99 L29.22,7 C29.22,3.47090045 32.0809004,0.61 35.61,0.61 L125.34,0.61 C128.8691,0.61 131.73,3.47090045 131.73,7 Z" id="Path" fill="#C42040"></path>
+            <rect id="Rectangle" fill="#FFFFFF" x="29.22" y="16.01" width="102.51" height="14.04"></rect>
+            <polygon id="Path" fill="#8B1D41" points="105.47 51.43 105.47 62.27 123.59 62.27 123.59 50.96 105.47 50.96"></polygon>
+            <rect id="Rectangle" fill="#8B1D41" x="6.72" y="91.72" width="19.57" height="8.31"></rect>
+            <rect id="Rectangle" fill="#8B1D41" x="30.19" y="91.72" width="19.57" height="8.31"></rect>
+            <rect id="Rectangle" fill="#8B1D41" x="53.67" y="91.72" width="19.57" height="8.31"></rect>
+            <rect id="Rectangle" fill="#8B1D41" x="77.14" y="91.72" width="19.57" height="8.31"></rect>
+        </g>
+    </g>
+</svg>

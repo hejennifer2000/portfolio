@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="256px" height="256px" viewBox="0 0 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>cross-border</title>
+    <desc>Created with Sketch.</desc>
+    <g id="cross-border" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons/Illustrative/Oval" fill="#F2F3F2">
+            <circle id="Oval" cx="128" cy="128" r="128"></circle>
+        </g>
+        <g transform="translate(58.000000, 64.000000)" fill-rule="nonzero">
+            <path d="M13.19,25 L37.46,1.57 C38.808683,0.282376102 40.931317,0.282376102 42.28,1.57 L66.56,25 L13.19,25 Z" id="Path" fill="#C42040"></path>
+            <rect id="Rectangle" fill="#8B1D41" x="13.19" y="27.46" width="53.37" height="87.75"></rect>
+            <rect id="Rectangle" fill="#FFFFFF" x="22.97" y="35.77" width="33.82" height="28.56"></rect>
+            <rect id="Rectangle" fill="#C42040" x="13.19" y="117.71" width="65.4" height="10.32"></rect>
+            <polygon id="Path" fill="#C42040" points="81.02 66.67 81.02 80.22 140.25 43.28 135.75 32.67"></polygon>
+            <rect id="Rectangle" fill="#8B1D41" x="0.34" y="111.77" width="10.35" height="16.27"></rect>
+            <rect id="Rectangle" fill="#8B1D41" x="81.02" y="111.77" width="10.35" height="16.27"></rect>
+            <rect id="Rectangle" fill="#8B1D41" x="69.06" y="64.32" width="9.52" height="50.93"></rect>
+            <circle id="Oval" fill="#FFFFFF" cx="73.82" cy="75.32" r="2.34"></circle>
+        </g>
+    </g>
+</svg>

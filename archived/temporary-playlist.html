@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Temporary Playlist</title>
+  <link rel="shortcut icon" href="img/logo.ico">
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/scrolling-nav.css" rel="stylesheet">
+
+</head>
+
+<body id="selective-looping">
+
+  <section class="case-study-header">
+    <div class="container text-center">
+      <a href="index.html#work" class="btn btn-outline-primary">&#8249; back</a>
+      <h1 class="pt-5">TEMPORARY PLAYLIST</h1>
+      <p class="pt-3 px-5">A personal project, for fellow audiophiles.</p>
+      <p class="pt-3 px-5"></p>
+    </div>
+  </section> 
+
+  <section class="case-study">
+    <div class="container">
+      <div class="row text-left">
+        <div class="col-xs-12 col-sm-12 col-md-8 offset-md-2">
+          <h2 class="py-3">BACKGROUND</h2>
+          <p>Spotify is an audio streaming app that allows its users to create their own playlists, curating a collection of songs that they are enjoying at the moment. Similar to an artist’s album, these user-created playlists can be looped so that the user can enjoy their favourite songs over and over again.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="case-study">
+    <div class="container">
+      <div class="row text-left">
+        <div class="col-xs-12 col-sm-12 col-md-8 offset-md-2">
+          <h2 class="py-3">EXPLORING THE PROBLEM</h2>
+          <p>In order to create a playlist, the user has to go into the vertical ellipses beside the first song, select ADD TO PLAYLIST from the menu, select NEW PLAYLIST, and then give the playlist a name.</p>
+        </div>
+      </div>
+      <div class="row justify-content-left pb-5">
+        <div class="col-xs-12 col-sm-12 col-md-2 offset-md-2">
+          <img src="img/spotify-current-1.png" class="img-fluid" alt="spotify's current state to create a playlist">
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-2">
+          <img src="img/spotify-current-2.png" class="img-fluid" alt="spotify's current state to create a playlist">
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-2">
+          <img src="img/spotify-current-3.png" class="img-fluid" alt="spotify's current state to create a playlist">
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-2">
+          <img src="img/spotify-current-4.png" class="img-fluid" alt="spotify's current state to create a playlist">
+        </div>
+      </div>
+      <div class="row text-left">
+        <div class="col-xs-12 col-sm-12 col-md-8 offset-md-2">
+          <p>For each subsequent song, the user again has to go into the vertical ellipses beside the song, select ADD TO PLAYLIST from the menu, and select the newly created playlist. </p>
+        </div>
+      </div>
+      <div class="row justify-content-left pb-5">
+        <div class="col-xs-12 col-sm-12 col-md-2 offset-md-2">
+          <img src="img/spotify-current-1.png" class="img-fluid" alt="spotify's current state to add a playlist">
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-2">
+          <img src="img/IMG_0049.PNG" class="img-fluid" alt="spotify's current state to add a playlist">
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-2">
+          <img src="img/IMG_0050.PNG" class="img-fluid" alt="spotify's current state to add a playlist">
+        </div>
+      </div>
+      <div class="row text-left pb-3">
+        <div class="col-xs-12 col-sm-12 col-md-8 offset-md-2">
+          <p>In total, there are four steps to create the playlist, then three steps for every subsequent song. </p>
+        </div>
+      </div>
+      <div class="row text-left pb-3">
+        <div class="col-xs-12 col-sm-12 col-md-8 offset-md-2">
+          <p>Therefore, creating a playlist is a tedious process.</p>
+        </div>
+      </div>
+      <div class="row text-left pb-3">
+        <div class="col-xs-12 col-sm-12 col-md-8 offset-md-2">
+          <p>Being friends with a music aficionado, I know that there are particular days or moments that we want to listen to a selection of songs, but do not want to go through the process of creating a permanent playlist. Especially when a good playlist is a collection that takes time and careful consideration. </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="case-study">
+    <div class="container">
+      <div class="row text-left">
+        <div class="col-xs-12 col-sm-12 col-md-8 offset-md-2">
+          <h2 class="py-3">UNDERSTANDING THE USER</h2>
+        </div>
+      </div>
+      <div class="row text-left">
+        <div class="col-xs-12 col-sm-12 col-md-8 offset-md-2">
+          <p>To understand the type of user that could benefit from addressing this problem, I created the persona below. </p>
+        </div>
+      </div>
+      <div class="row justify-content-left pb-5">
+        <div class="col-xs-12 col-sm-12 col-md-8 offset-md-2">
+          <img src="img/persona.png" class="img-fluid" alt="user persona for case study">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="case-study">
+    <div class="container">
+      <div class="row text-left">
+        <div class="col-xs-12 col-sm-12 col-md-8 offset-md-2">
+          <h2 class="py-3">PROBLEM DEFINITION</h2>
+        </div>
+      </div>
+      <div class="row text-left pb-3">
+        <div class="col-xs-12 col-sm-12 col-md-8 offset-md-2">
+          <p>Create a function on Spotify that allows the user to EFFICIENTLY create a PERSONALIZED collection of songs.</p>
+        </div>
+      </div>
+      <div class="row text-left pb-3">
+        <div class="col-xs-12 col-sm-12 col-md-8 offset-md-2">
+          <p>To EFFICIENTLY create a collection of songs would mean to do this in as few steps as possible.</p>
+        </div>
+      </div>
+      <div class="row text-left pb-3">
+        <div class="col-xs-12 col-sm-12 col-md-8 offset-md-2">
+          <p>To create a PERSONALIZED collection of songs would mean to give the user as much flexibility as they need. The user can add whatever songs they feel like adding at the time.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="case-study">
+    <div class="container">
+      <div class="row text-left">
+        <div class="col-xs-12 col-sm-12 col-md-8 offset-md-2">
+          <h2 class="py-3">FLOW</h2>
+        </div>
+      </div>
+      <div class="row text-left pb-3">
+        <div class="col-xs-12 col-sm-12 col-md-8 offset-md-2">
+          <p>Below is a flow containing the main functionalities of the feature.</p>
+        </div>
+      </div>
+      <div class="row justify-content-left pb-5">
+        <div class="col-xs-12 col-sm-12 col-md-8 offset-md-2">
+          <img src="img/general-flow.png" class="img-fluid" alt="user flow for new feature">
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="case-study">
+    <div class="container">
+      <div class="row text-left">
+        <div class="col-xs-12 col-sm-12 col-md-8 offset-md-2">
+          <h2 class="py-3">FUNCTIONALITY</h2>
+        </div>
+      </div>
+      <div class="row text-left pb-3">
+        <div class="col-xs-12 col-sm-12 col-md-8 offset-md-2">
+          <p>I first needed to differentiate between functionalities associated with the existing state of the app and those associated with the new feature. They will be differentiated by the colour yellow.</p>
+        </div>
+      </div>
+      <div class="row text-left pb-3">
+        <div class="col-xs-12 col-sm-12 col-md-8 offset-md-2">
+          <p>Based on the flow, the first functionality to consider is creating and adding songs to the playlist.</p>
+        </div>
+      </div>
+      <div class="row text-left">
+        <div class="col-xs-12 col-sm-12 col-md-8 offset-md-2">
+          <p>The initial idea was to first enter a separate temporary playlist mode that prompted the user to select ALL the songs they wanted on the playlist before creating it.</p>
+        </div>
+      </div>
+      <div class="row justify-content-left pb-5">
+        <div class="col-xs-12 col-sm-12 col-md-8 offset-md-2">
+          <img src="img/flow-1.png" class="img-fluid" alt="first iteration for new feature">
+        </div>
+      </div>
+      <div class="row text-left pb-3">
+        <div class="col-xs-12 col-sm-12 col-md-8 offset-md-2">
+          <p>However, the user should be able to go directly into the app with the intention of creating a temporary playlist and create it immediately. Making the user first enter the separate mode adds an unnecessary step. Additionally, this interaction could be difficult to use if the user wants to manually search for a particular song or add songs from several different playlists. They would have to keep track of the songs that they have selected while jumping from screen-to-screen.</p>
+        </div>
+      </div>
+      <div class="row text-left">
+        <div class="col-xs-12 col-sm-12 col-md-8 offset-md-2">
+          <p>I wanted to enable the user to add songs to the playlist efficiently, and as they wanted. The user taps on the plus sign next to the song to immediately create the temporary playlist and add the first song. Additional songs are added in the same way. The user can easily move around the app, adding songs as they please.</p>
+        </div>
+      </div>
+      <div class="row justify-content-left pb-3">
+        <div class="col-xs-12 col-sm-12 col-md-8 offset-md-2">
+          <img src="img/flow-final.png" class="img-fluid" alt="flow diagram created for case study">
+        </div>
+      </div>
+      <div class="row justify-content-left pb-5">
+        <div class="col-xs-12 col-sm-12 col-md-2 offset-md-2">
+          <img src="img/feature-1.png" class="img-fluid" alt="frame one of new feature">
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-2">
+          <img src="img/feature-2.png" class="img-fluid" alt="frame two of new feature">
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-2">
+          <img src="img/feature-3.png" class="img-fluid" alt="frame three of new feature">
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-2">
+          <img src="img/feature-4.png" class="img-fluid" alt="frame four of new feature">
+        </div>
+      </div>
+      <div class="row text-left pb-3">
+        <div class="col-xs-12 col-sm-12 col-md-8 offset-md-2">
+          <p>Once in the playlist, the functionality becomes similar to a typical Spotify playlist. The user can shuffle play and remove songs as necessary. However, with the goal of efficiency in mind, ensuring that song removal could be complete within one step was important. Therefore, the user easily removes a song by tapping on the X. Additionally, to emphasize the impermanence of this function, the user can also immediately clear the whole playlist with one tap.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+   <section class="case-study">
+    <div class="container">
+      <div class="row text-left">
+        <div class="col-xs-12 col-sm-12 col-md-8 offset-md-2">
+          <h2 class="py-3">REFLECTION</h2>
+        </div>
+      </div>
+      <div class="row text-left pb-3">
+        <div class="col-xs-12 col-sm-12 col-md-8 offset-md-2">
+          <p>Mid-way into designing the function, I noticed that it was similar to Spotify’s already existing queue function. This function allows users to add songs to a queue that will play the songs in the order they are added. However, I believe that this temporary playlist solution is more accessible (the function is not hidden but instead visible throughout the app by its distinct colour) and flexible (it allows users to choose their own order and remove songs).</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-5">
+    <div class="container pb-4">
+      <div class="row justify-content-center text-center">
+        <div class="col-12">
+          <h2>CONTACT</h2>
+        </div>
+      </div>
+    </div>
+
+    <div class="container pb-4">
+      <div class="row justify-content-center text-center">
+        <div class="col-12">
+          <img src="img/envelope.svg" class="pr-3" alt="email">
+          <p>jy2he@uwaterloo.ca</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom JavaScript for this theme -->
+  <script src="js/scrolling-nav.js"></script>
+
+</body>
+
+</html>
